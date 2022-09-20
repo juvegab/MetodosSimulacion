@@ -112,7 +112,7 @@ int main(){
   double m0=10,m1=1,r=11;
   double M=m0+m1, x0=-m1*r/M,x1=m0*r/M;
   double omega=sqrt(G*M/(r*r*r)),V0=omega*x0,T=2*M_PI/omega,V1=omega*x1; 
-  double tdibujo,tmax=10*T, tcuadro=T/5000;
+  double tdibujo,tmax=11*T, tcuadro=T/5000;
 
   //------------(x0,y0,z0,Vx0,Vy0,Vz0,m0,R0)
   Planeta[0].Inicie(x0, 0,0,  0, V0/2,0,m0,1.0);
